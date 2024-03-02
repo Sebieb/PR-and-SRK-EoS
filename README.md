@@ -3,7 +3,11 @@ with the classical mixing rule and a group contribution method for the binary in
 parameter "k_ij" by Jaubert and Mutelet.
 
 
+
+
 exemplary input into Volume_SRK(T, P, Tc, Pc, w, R, mol_fractions, Components):
+
+
 
 T=100 #K
 P= 1000 # Pa
