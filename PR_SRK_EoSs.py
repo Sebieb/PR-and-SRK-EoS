@@ -52,7 +52,7 @@ def Volume_SRK(T, P, Tc, Pc, w, R, mol_fractions, Components):
     Po = poly.Polynomial((p0, p1, p2, p3))
     for root in Po.roots():
         if np.imag(root) == 0.:
-            v.append(float(root) * 1000000)
+            v.append(float(root) * 1000)
 
     return v[-1]
 
@@ -108,7 +108,7 @@ def Volume_PR(T, P, Tc, Pc, w, R, mol_fractions, Components):
     Po = poly.Polynomial((p0, p1, p2, p3))
     for root in Po.roots():
         if np.imag(root) == 0.:
-            v.append(float(root) * 1000000)
+            v.append(float(root) * 1000)
 
     return v[-1]
 
